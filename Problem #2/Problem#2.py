@@ -104,10 +104,7 @@ if mode in [1,2]:
                 input_command = int(input('Please input any number: '))
                 print('\n------------------------------------------\n')
                 continue
-        elif mode == 2 and input_command == 4:
-            print('This program has not this command and End of Program')
-            break
-        else:
+        else: #Assumtion: ถ้ากรอกนอกเหนือจากตัวเลขที่กำหนดจะไม่สามารถทำรายกายต่อได้และข้อมูลจะเริ่มใหม่หมด
             print('This program has not this command and End of Program')
             break
 else:
